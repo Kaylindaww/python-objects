@@ -40,7 +40,11 @@ def removes_duplicate():
     print(x(y))
 #3.
 def flatten():
-    x = [[1,2],[3,4],[5,6]],
+      x = [[1,2],[3,4],[5,6]],
+      flatten = []
+      for element in x:
+        flatten.append(x)
+      print(x)
 #8.
 class Rectangle:
     def __init__(self,width,length):
