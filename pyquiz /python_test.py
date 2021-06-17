@@ -11,7 +11,7 @@ x = [100,110,120,130,140,150]
 newlist=[] 
 for newlist in x:
     if x*5==2:
-        print(newlist)
+        print(newlist.append([]))
         
 #4
 def smallest():
@@ -41,3 +41,9 @@ def removes_duplicate():
 #3.
 def flatten():
     x = [[1,2],[3,4],[5,6]],
+#8.
+class Rectangle:
+    def __init__(self,width,length):
+        self.width=width
+        self.length=length
+    def area():    
