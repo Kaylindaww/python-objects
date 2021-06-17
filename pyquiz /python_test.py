@@ -2,7 +2,7 @@
 def divisible_by_seven():
     x= range(100,200)
     for y  in x:
-        if x%7==0:
+        if y%7==0:
              print(y)
 
 
